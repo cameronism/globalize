@@ -6,6 +6,7 @@
 		setup: function() {
 			cultures = Globalize.cultures;
 			Globalize.culture( "default" );
+			Globalize.utc( false );
 		},
 		teardown: function() {
 			Globalize.cultures = cultures;
